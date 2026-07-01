@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6p0034/v1
+canonical_location: https://kanripo.org/bkk/KR6p0034/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 十往生阿彌陀佛國經
+  identifiers:
+    alt_id:
+    - X01n0014
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0014.xml
+    old_id: X01n0014
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0034_000.yaml, hash: 'sha256:c0eabc552cefe217923701d93acdbb3019633987d923e60bf791a880cec71ad9'}
+  - {seq: 1, filename: KR6p0034_001.yaml, hash: 'sha256:f321e44631f2b2b8098b5fc7dc372f6061986c852f675b7863098a7a006c8d99'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6p0034_001.markers.yaml, hash: 'sha256:e30c5f2d8e6ebda0594fa17484e393f90789c7e999fed1c10584801ffe4f99cf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6p0034_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 佛說十往生阿彌陀佛國經
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0034_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2307
+  label: 佛說十往生阿彌陀佛國經
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0034_X_001-mulu-1
+    span:
+    - body
+    - 2009
+    - 2009
+  label: No. 14-A 十往生經真偽決疑
+  type: mulu
+  level: 1
+hash: sha256:d54453c546da43d60548746081646f7d5f1fc98694f165556c6ae61cf80d996b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

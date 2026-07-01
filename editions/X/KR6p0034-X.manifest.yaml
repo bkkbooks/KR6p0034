@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6p0034/X/v1
+canonical_location: https://kanripo.org/bkk/KR6p0034/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十往生阿彌陀佛國經
+  identifiers:
+    krp: KR6p0034
+    cbeta: X01n0014
+    cbeta_old_id: X01n0014
+    authorityid: CA0003075
+    json_key: X0014
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0014.xml
+    old_id: X01n0014
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0034_000-X.yaml, hash: 'sha256:c0eabc552cefe217923701d93acdbb3019633987d923e60bf791a880cec71ad9'}
+  - {seq: 1, filename: KR6p0034_001-X.yaml, hash: 'sha256:488b880faaa72b2f674d66ee10613bc3f87289b59df4f6502a4c9241ac45f391'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6p0034_000-X.markers.yaml, hash: 'sha256:2d2376c5626f2495b74801996d9cf29df1e2dfff139667cd0801b822c9f6265b'}
+  - {seq: 1, role: markers, filename: assets/KR6p0034_001-X.markers.yaml, hash: 'sha256:0b88440a4d4fe8be51e060535b0b9e4dd3bf131cd2966217a76cc4055bfd658b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6p0034_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 佛說十往生阿彌陀佛國經
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0034_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2307
+  label: 佛說十往生阿彌陀佛國經
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0034_X_001-mulu-1
+    span:
+    - body
+    - 2009
+    - 2009
+  label: No. 14-A 十往生經真偽決疑
+  type: mulu
+  level: 1
+hash: sha256:914908c41584b03839c0d21e464198afdb71f9139a6ebaa049e3665532c64cb9

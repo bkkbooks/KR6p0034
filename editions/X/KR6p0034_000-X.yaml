@@ -1,0 +1,19 @@
+canonical_identifier: bkk:krp/KR6p0034/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+  markers:
+  - {type: 其他, offset: 0, content: 佛說十往生阿彌陀佛國經, id: KR6p0034_X_000-mulu-1, level: '1'}
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十往生阿彌陀佛國經
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0014.xml
+    old_id: X01n0014
+hash: sha256:c0eabc552cefe217923701d93acdbb3019633987d923e60bf791a880cec71ad9
