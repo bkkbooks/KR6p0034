@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6p0034/v1
 canonical_location: https://kanripo.org/bkk/KR6p0034/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 十往生阿彌陀佛國經
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6p0034_000.yaml, hash: 'sha256:c0eabc552cefe217923701d93acdbb3019633987d923e60bf791a880cec71ad9'}
-  - {seq: 1, filename: KR6p0034_001.yaml, hash: 'sha256:488b880faaa72b2f674d66ee10613bc3f87289b59df4f6502a4c9241ac45f391'}
+  - {seq: 1, filename: KR6p0034_001.yaml, hash: 'sha256:4199600d000bc1e1c65ba4a7aef6a0799956d3131857906d12a526869a8cb6be'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6p0034_000.markers.yaml, hash: 'sha256:4cdab5219999c9b5080183fc50ab5d7bce4022a08f4f8844534c829a564b5741'}
-  - {seq: 1, role: markers, filename: assets/KR6p0034_001.markers.yaml, hash: 'sha256:0b4ede7cca8e44facd30b345106227774f7d971c407037ab5beb6a948c690b84'}
+  - {seq: 1, role: markers, filename: assets/KR6p0034_001.markers.yaml, hash: 'sha256:eb5533bc772559bf953e24d0731081ef708f16031eff4957d5856799687ddf1e'}
 table_of_contents:
 - ref:
     seq: 0
@@ -57,4 +57,7 @@ table_of_contents:
   label: No. 14-A 十往生經真偽決疑
   type: mulu
   level: 1
-hash: sha256:11e02358c777d65ce5bda2c0f5af6ce7a431d11f2c147ef3bde01c09e0655730
+hash: sha256:62a85bbe08d07e5923378d72c30456aac693b1be6a30588206ca722fea2fc75e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
